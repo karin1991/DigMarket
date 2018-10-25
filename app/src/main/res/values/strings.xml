@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DigMarket</string>
+    <string name="price">0</string>
+    <string name="sign">₪</string>
+    <string name="buyingButton">רכישה</string>
+    <string name="scanText">Scan item</string>
+    <string name="scanShopText">סרוק את קוד החנות</string>
+</resources>

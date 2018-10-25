@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "384051979605",
+    "firebase_url": "https://digmarket-c276c.firebaseio.com",
+    "project_id": "digmarket-c276c",
+    "storage_bucket": "digmarket-c276c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384051979605:android:45e5bae66d0c9ab5",
+        "android_client_info": {
+          "package_name": "com.karin.digmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384051979605-hmcharjr7563o0h458343be43uc9hnhs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkWeaJma2vT6ufeLSWbr-mG72PPgi-Vfk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

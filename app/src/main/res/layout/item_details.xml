@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/row_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="60dp">
+    <!--tools:context="com.example.karin.digmarket.ItemDetailsAdapter">-->
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="154dp"
+        android:layout_height="60dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:hint="description"
+        tools:text="תיאור מוצר" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+
+        android:layout_marginEnd="126dp"
+        android:hint='0'
+        tools:text="כמות" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="43dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="76dp"
+        android:clickable="true"
+        android:text="+" />
+
+
+    <Button
+        android:id="@+id/subButton"
+        android:layout_width="43dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="25dp"
+        android:text="-" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/addButton"
+        android:layout_centerHorizontal="true"
+        tools:text="price" />
+
+
+</RelativeLayout>
